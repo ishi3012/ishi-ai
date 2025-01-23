@@ -92,6 +92,24 @@ modalCloses.forEach((modalClose) => {
     })
 })
 
+/*==================== BLOG SWIPER  ====================*/
+document.addEventListener('DOMContentLoaded', function () {
+    const swiperBlog = new Swiper('.blog__container', {
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+});
+
+
+
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiperPortfolio = new Swiper('.portfolio__container', {
     cssMode: true,
