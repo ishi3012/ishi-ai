@@ -559,8 +559,14 @@ img {
 .skills__frameworks {
   width: 90%;
 }
+.skills__ml {
+  width: 95%;
+}
 
-.skills__cv {
+.skills__dl {
+  width: 95%;
+}
+.skills__genai {
   width: 95%;
 }
 
@@ -568,16 +574,12 @@ img {
   width: 95%;
 }
 
-.skills__ap {
-  width: 90%;
+.skills__rs {
+  width: 55%;
 }
 
-.skills__ps {
-  width: 90%;
-}
-
-.skills__dav {
-  width: 85%;
+.skills__rag {
+  width: 75%;
 }
 
 .skills__python {
@@ -585,11 +587,11 @@ img {
 }
 
 .skills__cpp {
-  width: 90%;
+  width: 95%;
 }
 
 .skills__java {
-  width: 90%;
+  width: 70%;
 }
 
 .skills__sql {
@@ -608,8 +610,58 @@ img {
   width: 90%;
 }
 
+.skills__aws {
+  width: 85%;
+}
+
+.skills__azure {
+  width: 85%;
+}
+
+.skills__tf {
+  width: 90%;
+}
+
 .skills__pt {
-  width: 72%;
+  width: 85%;
+}
+
+.skills__sl {
+  width: 75%;
+}
+
+.skills__keras {
+  width: 65%;
+}
+
+.skills__hf {
+  width: 75%;
+}
+
+.skills__spacy {
+  width: 50%;
+}
+
+.skills__datap {
+  width: 95%;
+}
+
+.skills__cleaning {
+  width: 75%;
+}
+
+.skills__dr {
+  width: 75%;
+}
+.skills__spark {
+  width: 90%;
+}
+
+.skills__jupyter {
+  width: 90%;
+}
+.skills__colab {
+  width: 90%;
 }
 
 .skills__git {
@@ -648,7 +700,9 @@ img {
 
 .skills__open .skills__arrow {
   transform: rotate(-180deg);
-}
+} 
+
+
 
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
@@ -1139,6 +1193,9 @@ img {
   }
   .qualification__data {
     gap: .5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
   }
   .services__container {
     grid-template-columns: max-content;
