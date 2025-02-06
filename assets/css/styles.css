@@ -900,7 +900,8 @@ img {
 }
 
 .portfolio__img {
-  width: 265px;
+  /* width: 265px; */
+  width: 300px;
   border-radius: .5rem;
   justify-self: center;
 }
@@ -1539,5 +1540,11 @@ img {
   }
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio__buttons 
+  {
+    display: flex;         
+    gap: 10px;           
+    flex-wrap: wrap;      
   }
 }
